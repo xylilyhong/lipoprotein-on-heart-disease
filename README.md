@@ -1,2 +1,2 @@
-# lipoprotein-on-heart-disease
-The influence of cholesterols (high-density lipoproteins &amp; low-density lipoproteins) on cardiovascular disease (CAD)
+### TLDR: Re-evaluating the "Culprits" of Heart Disease 
+We’ve been told for decades that low-density lipoprotein (LDL) is the enemy and high-density lipoprotein (HDL) is the hero. But the data tells a more complex story. In this project, I investigated three years of longitudinal health data (2021–2023) to see if LDL is truly "that bad." By modeling the cardiovascular outcomes of over 10,000 individuals, I found that HDL’s protective power depends heavily on the broader "cholesterol environment" of the patient. It’s not just about the levels; it’s about the interaction. 
