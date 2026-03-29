@@ -22,4 +22,16 @@ The datasets were then merged into a new dataset based on the shared column “R
 2) MCQ160C ~ RIAGENDR + RIDAGEYR + LBXTC + BPQ101D (all types of cholesterol on CAD)
 3) MCQ160C ~ RIAGENDR + RIDAGEYR + LBDHDD + LBXTC + BPQ101D (CAD & all types of cholesterol on CAD)
 
-The purpose of 3) is to adjust for the correlation between HDL and total cholesterol.
+Note: The purpose of 3) is to adjust for the correlation between HDL and total cholesterol.
+
+### Results
+The rate of CAD was 5% in the surveyed population with an average age of 38 and a roughly 1:1 gender ratio (Table 1). The distribution plots (Figure 1 and Figure 2) showed that lower HDL levels and lower total cholesterol levels both implied a higher risk of developing CAD, but taking medications was effective in reducing the risk. It was also found that a 1 mg/dL increase in HDL was associated with an odds ratio of 0.984 (95% confidence interval: 0.973 – 0.994; p-value = 0.0017). However, when adjusted for the total cholesterol level, the same increase in HDL was associated with an odds ratio of 0.992 (95% confidence interval: 0.981 – 1.003; p-value = 0.147) (Figure 3).
+
+| | Mean | Standard Deviation | Median | IQR | Missing Data |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| Age (yrs) | 38.32 | 25.60 | 37 | 13-62 | 0 |
+| Percentage of Women | 0.53 | N/A | N/A | N/A | 0 |
+| HDL (mg/dL) | 54.11 | 14.10 | 52 | 44-61 | 5043 |
+| Total cholesterol (mg/dL) | 181.54 | 42.32 | 178 | 151-207 | 5043 |
+| Percentage of CAD	| 0.05 | N/A | N/A | N/A | 4160 |
+| Percentage of drug use | 0.25 | N/A | N/A | N/A |	3468 |
